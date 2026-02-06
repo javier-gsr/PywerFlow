@@ -49,8 +49,8 @@ env/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Archivos de matlab
-*.m
+# # Archivos de matlab
+# .m
 
 # Directorio de mis cosas auxiliares
 dev_aux
