@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Intermediate build files
+*.o
+*.obj
+*.def
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.manifest
+sdist/
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+# Unit test / coverage reports
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+# Translations
+*.mo
+*.pot
+# Environments
+.venv/
+venv/
+env/
+.env/
+# IDEs and other tools
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.bak
+*.swo
+*~
+.DS_Store
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de matlab
+*.m
+
+# Directorio de mis cosas auxiliares
+dev_aux

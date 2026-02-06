@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pywerflow"
+version = "0.1.0"
+authors = [
+  { name="Javier García San Román", email="javigs278@gmail.com" },
+]
+description = "Librería hecha en python para mi TFG. Ofrece herramientas útiles para resolver el problema del flujo de cargas."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "scipy",
+    "prettytable",
+    "matplotlib",
+    "networkx",
+    "pandas",
+    "openpyxl"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/javier-gsr/PywerFlow"
+
+[tool.setuptools.package-data]
+pywerflow = ["**"]
+
